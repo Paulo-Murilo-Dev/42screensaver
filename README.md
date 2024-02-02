@@ -21,5 +21,9 @@ age be too large; it should weigh around ```30kb``` It is also strongly recommen
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" alt="">
 
   If you're not in the mood to go through this process, I strongly recommend that you go to the AUR repository and download the build and only modify the images in the file. Then run the famous ```makepkg --skipinteg``` to skip the hash verifications of the image files, and then just enjoy your modified xscreensaver to your liking.
+  
+![Additional Image](https://i.imgur.com/JDLWp3k.jpg)
+
+Yeah, i don't have video capture card
 
 42.
