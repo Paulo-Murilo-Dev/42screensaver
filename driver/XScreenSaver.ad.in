@@ -316,15 +316,15 @@ XScreenSaver.bourneShell:		/bin/sh
 
 ! Static text in the dialog boxes:
 !
-*passwd.heading.label:		Qubes OS 4.0
-*passwd.body.label:		This screen is locked.
+*passwd.heading.label:		HackerpadArch-42
+*passwd.body.label:		Boa sorte.
 *passwd.unlock.label:		OK
 *passwd.login.label:		New Login
 *passwd.user.label:		Username:
 
-*splash.heading.label:		Qubes OS 4.0
-*splash.body.label:		Copyright \251 1991-2020 by
-*splash.body2.label:		Jamie Zawinski 
+*splash.heading.label:		HackerpadArch-42
+*splash.body.label:		Copyright \251 XXXX-XXXX by
+*splash.body2.label:		DvD_42 
 *splash.demo.label:		Settings
 *splash.help.label:		Help
 
@@ -693,3 +693,4 @@ XScreenSaver.bourneShell:		/bin/sh
 *hacks.documentation.isInstalled: True
 
 ! (xrdb prevention kludge: whole file) */
+
