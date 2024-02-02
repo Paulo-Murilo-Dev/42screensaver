@@ -1,23 +1,25 @@
 ## 🔒 42screensaver
-Uma simples modificação estética do Xscreensaver.
+ A simple aesthetic modification of Xscreensaver.
+
+### Modifications
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" alt="">
 
-## Modificações
+  Very few things were changed. If you want to make your own modifications to the files, know that you have to modify in ```/utils/images``` to access the logos (the logos I modified are the screen lock display logos) and also in ```/drive/XScreenSaver.ad``` to modify the texts. Apart from that, I believe it's much less aesthetic and more functional.
+
+### About the Artwork
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" alt="">
 
-Foram mudadas pouquissimas coisas, se você quiser fazer suas proprias modificações nos arquivos saiba que você tem q modificar em ```/utils/images``` para ter acesso as logos (sendo as logos que eu modifiquei as logos de exibição do lock da tela) e também no ```/drive/XScreenSaver.ad``` para modificar os textos, fora isso acredito que seja bem menos estético e mais funcionalidades.
+  One detail that was not specified, but to modify the ```.xpm``` image of the xcreensaver, with your modifications, you cannot let the im
+age be too large; it should weigh around ```30kb``` It is also strongly recommended that you change the color scheme to indexed and reduce the number of colors; it will help in image compression. I used GIMP to make the modifications.
 
-## Sobre a arte
+### Compilation
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" alt="">
 
-Um detalhe que não foi expecificado mas para modificar a imagem .xpm do xcreensaver você com suas modificações não pode deixar a imagem muito grande, ela deve pesar por volta de 30kbs, é fortemente recomendado também q você mude o esquema de cores para indexado e reduza o número de cores, vai ajudar na compressão da imagem, eu usei o GIMP para fazer as modificações.
+  Compilation is a bit tricky. I don't usually deal with compilation software; there are several dependencies I needed to download to compile the file. But for a cleaner compilation, I do not recommend cloning this repository and modifying it; I recommend getting the file from the most up-to-date version of the build and modifying it, as this way you will have fewer dependency problems.
 
-## Compilação
+### Easy Mode
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" alt="">
 
-A compilação é chatinha, eu não costumo mexer com software para compilação, há várias dependências que eu precisei baixar para compilar o arquivo, mas para uma compilaçao mais limpa não recomendo clonar esse repositório e modificar, recomendo pegar o arquivo da versão mais atualizada da build e modificar, já que assim você vai ter menhos problemas com dependências.
+  If you're not in the mood to go through this process, I strongly recommend that you go to the AUR repository and download the build and only modify the images in the file. Then run the famous ```makepkg --skipinteg``` to skip the hash verifications of the image files, and then just enjoy your modified xscreensaver to your liking.
 
-## Modo fácil
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" alt="">
-
-Se você não tá com muito saco para fazer esse processo eu recomendo fortemente que você vá até o repositório do [AUR](https://aur.archlinux.org/packages/xscreensaver-arch-logo) e baixe a build e modifique apenas as imagens do arquivo, depois rode o famoso `makepkg --skipinteg` ignorando assim as verificações de hash dos arquivos de imagem, e depois só aproveitar seu xscreensaver modificado a o seu gosto. 
+42.
